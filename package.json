@@ -1,0 +1,41 @@
+{
+  "name": "auto-comment",
+  "displayName": "auto_comment",
+  "description": "Ajusta automaticamente o número de traços em comentários",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.commentWithDashes",
+        "title": "Comment With Dashes"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "extension.commentWithDashes",
+        "key": "ctrl+shift+,",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.97.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "eslint": "^9.19.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1"
+  }
+}
