@@ -1,14 +1,19 @@
 {
   "name": "auto-comment",
-  "displayName": "auto_comment",
+  "displayName": "Auto Comment",
   "description": "Ajusta automaticamente o número de traços em comentários",
   "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.97.0"
+  "publisher": "seu-nome-de-usuário",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucasBalmantcoder/auto_comment.git"
   },
   "categories": [
     "Other"
   ],
+  "engines": {
+    "vscode": "^1.97.0"
+  },
   "main": "./extension.js",
   "contributes": {
     "commands": [
