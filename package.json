@@ -3,7 +3,7 @@
   "displayName": "Auto Comment",
   "description": "Ajusta automaticamente o número de traços em comentários",
   "version": "0.0.1",
-  "publisher": "seu-nome-de-usuário",
+  "publisher": "Lucas Balmant",
   "repository": {
     "type": "git",
     "url": "https://github.com/lucasBalmantcoder/auto_comment.git"
